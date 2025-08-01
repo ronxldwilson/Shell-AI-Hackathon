@@ -1,0 +1,67 @@
+2025-07-21 05:45:03,897 - INFO - Starting AutoGluon multi-target regression pipeline
+2025-07-21 05:45:03,897 - INFO - Loading data...
+2025-07-21 05:45:03,923 - INFO - Data loaded - Train: (2000, 65), Test: (500, 56)
+2025-07-21 05:45:03,923 - INFO - Validating data...
+2025-07-21 05:45:03,923 - INFO - ID column 'ID' found in test file but not train file
+2025-07-21 05:45:03,923 - INFO - This is typical for ML competitions - train file doesn't need ID column
+2025-07-21 05:45:03,931 - INFO - Data validation passed
+2025-07-21 05:45:03,931 - INFO - Engineering features...
+2025-07-21 05:45:03,931 - INFO - Train features: 55, Test features: 55
+2025-07-21 05:45:03,931 - INFO - Common features for training: 55
+2025-07-21 05:45:03,956 - INFO - Created interaction feature: Component4_fraction_x_Component5_fraction
+2025-07-21 05:45:03,956 - INFO - Feature engineering completed
+2025-07-21 05:45:03,956 - INFO - Using 56 features for training
+2025-07-21 05:45:03,956 - INFO - Processing target 1/10: BlendProperty1
+2025-07-21 05:45:03,956 - INFO - Training model for BlendProperty1...
+2025-07-21 05:45:03,956 - INFO - Training samples for BlendProperty1: 2000
+2025-07-21 05:45:03,972 - ERROR - Failed to train model for BlendProperty1: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:03,972 - INFO - Processing target 2/10: BlendProperty2
+2025-07-21 05:45:03,972 - INFO - Training model for BlendProperty2...
+2025-07-21 05:45:03,972 - INFO - Training samples for BlendProperty2: 2000
+2025-07-21 05:45:03,992 - ERROR - Failed to train model for BlendProperty2: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:03,992 - INFO - Processing target 3/10: BlendProperty3
+2025-07-21 05:45:03,992 - INFO - Training model for BlendProperty3...
+2025-07-21 05:45:03,997 - INFO - Training samples for BlendProperty3: 2000
+2025-07-21 05:45:04,013 - ERROR - Failed to train model for BlendProperty3: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,013 - INFO - Processing target 4/10: BlendProperty4
+2025-07-21 05:45:04,013 - INFO - Training model for BlendProperty4...
+2025-07-21 05:45:04,016 - INFO - Training samples for BlendProperty4: 2000
+2025-07-21 05:45:04,021 - ERROR - Failed to train model for BlendProperty4: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,030 - INFO - Processing target 5/10: BlendProperty5
+2025-07-21 05:45:04,030 - INFO - Training model for BlendProperty5...
+2025-07-21 05:45:04,030 - INFO - Training samples for BlendProperty5: 2000
+2025-07-21 05:45:04,046 - ERROR - Failed to train model for BlendProperty5: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,046 - INFO - Processing target 6/10: BlendProperty6
+2025-07-21 05:45:04,046 - INFO - Training model for BlendProperty6...
+2025-07-21 05:45:04,046 - INFO - Training samples for BlendProperty6: 2000
+2025-07-21 05:45:04,063 - ERROR - Failed to train model for BlendProperty6: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,063 - INFO - Processing target 7/10: BlendProperty7
+2025-07-21 05:45:04,063 - INFO - Training model for BlendProperty7...
+2025-07-21 05:45:04,063 - INFO - Training samples for BlendProperty7: 2000
+2025-07-21 05:45:04,085 - ERROR - Failed to train model for BlendProperty7: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,090 - INFO - Processing target 8/10: BlendProperty8
+2025-07-21 05:45:04,090 - INFO - Training model for BlendProperty8...
+2025-07-21 05:45:04,090 - INFO - Training samples for BlendProperty8: 2000
+2025-07-21 05:45:04,106 - ERROR - Failed to train model for BlendProperty8: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,106 - INFO - Processing target 9/10: BlendProperty9
+2025-07-21 05:45:04,106 - INFO - Training model for BlendProperty9...
+2025-07-21 05:45:04,106 - INFO - Training samples for BlendProperty9: 2000
+2025-07-21 05:45:04,131 - ERROR - Failed to train model for BlendProperty9: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,131 - INFO - Processing target 10/10: BlendProperty10
+2025-07-21 05:45:04,131 - INFO - Training model for BlendProperty10...
+2025-07-21 05:45:04,131 - INFO - Training samples for BlendProperty10: 2000
+2025-07-21 05:45:04,148 - ERROR - Failed to train model for BlendProperty10: Unknown `.fit` keyword argument specified: 'random_state'
+Valid kwargs: ['ag_args', 'ag_args_ensemble', 'ag_args_fit', 'auto_stack', 'calibrate', 'delay_bag_sets', 'ds_args', 'excluded_model_types', 'feature_generator', 'feature_prune_kwargs', 'holdout_frac', 'hyperparameter_tune_kwargs', 'included_model_types', 'keep_only_best', 'learning_curves', 'name_suffix', 'num_bag_folds', 'num_bag_sets', 'num_stack_levels', 'pseudo_data', 'raise_on_model_failure', 'raise_on_no_models_fitted', 'refit_full', 'save_bag_folds', 'save_space', 'set_best_to_refit_full', 'test_data', 'unlabeled_data', 'use_bag_holdout', 'verbosity']
+2025-07-21 05:45:04,148 - INFO - Creating submission file...
+2025-07-21 05:45:04,148 - INFO - Training pipeline completed successfully!
+2025-07-21 05:45:04,148 - INFO - Submission saved to: submission.csv
+2025-07-21 05:45:04,156 - INFO - Performance summary saved to: model_performance.csv

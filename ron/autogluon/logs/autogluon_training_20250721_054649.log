@@ -1,0 +1,77 @@
+2025-07-21 05:46:49,986 - INFO - Starting AutoGluon multi-target regression pipeline
+2025-07-21 05:46:49,986 - INFO - Loading data...
+2025-07-21 05:46:50,019 - INFO - Data loaded - Train: (2000, 65), Test: (500, 56)
+2025-07-21 05:46:50,019 - INFO - Validating data...
+2025-07-21 05:46:50,019 - INFO - ID column 'ID' found in test file but not train file
+2025-07-21 05:46:50,019 - INFO - This is typical for ML competitions - train file doesn't need ID column
+2025-07-21 05:46:50,022 - INFO - Data validation passed
+2025-07-21 05:46:50,022 - INFO - Engineering features...
+2025-07-21 05:46:50,023 - INFO - Train features: 55, Test features: 55
+2025-07-21 05:46:50,023 - INFO - Common features for training: 55
+2025-07-21 05:46:50,052 - INFO - Created interaction feature: Component5_fraction_x_Component4_fraction
+2025-07-21 05:46:50,052 - INFO - Feature engineering completed
+2025-07-21 05:46:50,053 - INFO - Using 56 features for training
+2025-07-21 05:46:50,053 - INFO - Processing target 1/10: BlendProperty1
+2025-07-21 05:46:50,053 - INFO - Training model for BlendProperty1...
+2025-07-21 05:46:50,054 - INFO - Training samples for BlendProperty1: 2000
+2025-07-21 06:00:25,819 - INFO - Best model for BlendProperty1: 0 (score: -0.5217)
+2025-07-21 06:00:27,704 - INFO - Predictions generated for BlendProperty1
+2025-07-21 06:00:27,706 - INFO - Prediction stats for BlendProperty1: mean=0.0451, std=0.7784, min=-1.7106, max=1.7889
+2025-07-21 06:00:27,706 - INFO - Processing target 2/10: BlendProperty2
+2025-07-21 06:00:27,706 - INFO - Training model for BlendProperty2...
+2025-07-21 06:00:27,708 - INFO - Training samples for BlendProperty2: 2000
+2025-07-21 06:13:28,283 - INFO - Best model for BlendProperty2: 0 (score: -0.5561)
+2025-07-21 06:13:28,870 - INFO - Predictions generated for BlendProperty2
+2025-07-21 06:13:28,870 - INFO - Prediction stats for BlendProperty2: mean=0.0107, std=0.8377, min=-2.0120, max=2.1148
+2025-07-21 06:13:28,871 - INFO - Processing target 3/10: BlendProperty3
+2025-07-21 06:13:28,871 - INFO - Training model for BlendProperty3...
+2025-07-21 06:13:28,873 - INFO - Training samples for BlendProperty3: 2000
+2025-07-21 06:25:19,592 - INFO - Best model for BlendProperty3: 0 (score: -0.8476)
+2025-07-21 06:25:20,234 - INFO - Predictions generated for BlendProperty3
+2025-07-21 06:25:20,234 - INFO - Prediction stats for BlendProperty3: mean=0.0327, std=0.6742, min=-2.0122, max=1.1653
+2025-07-21 06:25:20,234 - INFO - Processing target 4/10: BlendProperty4
+2025-07-21 06:25:20,234 - INFO - Training model for BlendProperty4...
+2025-07-21 06:25:20,234 - INFO - Training samples for BlendProperty4: 2000
+2025-07-21 06:39:14,515 - INFO - Best model for BlendProperty4: 0 (score: -0.4251)
+2025-07-21 06:39:16,197 - INFO - Predictions generated for BlendProperty4
+2025-07-21 06:39:16,197 - INFO - Prediction stats for BlendProperty4: mean=0.0237, std=0.8959, min=-2.0530, max=2.4240
+2025-07-21 06:39:16,197 - INFO - Processing target 5/10: BlendProperty5
+2025-07-21 06:39:16,197 - INFO - Training model for BlendProperty5...
+2025-07-21 06:39:16,199 - INFO - Training samples for BlendProperty5: 2000
+2025-07-21 06:44:11,482 - INFO - Best model for BlendProperty5: 0 (score: -0.0561)
+2025-07-21 06:44:11,958 - INFO - Predictions generated for BlendProperty5
+2025-07-21 06:44:11,958 - INFO - Prediction stats for BlendProperty5: mean=0.0635, std=1.0509, min=-1.7162, max=3.3981
+2025-07-21 06:44:11,958 - INFO - Processing target 6/10: BlendProperty6
+2025-07-21 06:44:11,958 - INFO - Training model for BlendProperty6...
+2025-07-21 06:44:11,960 - INFO - Training samples for BlendProperty6: 2000
+2025-07-21 06:59:34,492 - INFO - Best model for BlendProperty6: 0 (score: -0.4100)
+2025-07-21 06:59:36,421 - INFO - Predictions generated for BlendProperty6
+2025-07-21 06:59:36,421 - INFO - Prediction stats for BlendProperty6: mean=0.0130, std=0.9092, min=-2.1982, max=2.3602
+2025-07-21 06:59:36,421 - INFO - Processing target 7/10: BlendProperty7
+2025-07-21 06:59:36,421 - INFO - Training model for BlendProperty7...
+2025-07-21 06:59:36,424 - INFO - Training samples for BlendProperty7: 2000
+2025-07-21 07:12:55,072 - INFO - Best model for BlendProperty7: 0 (score: -0.8170)
+2025-07-21 07:12:55,746 - INFO - Predictions generated for BlendProperty7
+2025-07-21 07:12:55,746 - INFO - Prediction stats for BlendProperty7: mean=0.0199, std=0.5028, min=-1.4990, max=1.0229
+2025-07-21 07:12:55,748 - INFO - Processing target 8/10: BlendProperty8
+2025-07-21 07:12:55,748 - INFO - Training model for BlendProperty8...
+2025-07-21 07:12:55,748 - INFO - Training samples for BlendProperty8: 2000
+2025-07-21 07:30:44,086 - INFO - Best model for BlendProperty8: 0 (score: -0.5508)
+2025-07-21 07:30:46,149 - INFO - Predictions generated for BlendProperty8
+2025-07-21 07:30:46,150 - INFO - Prediction stats for BlendProperty8: mean=0.0496, std=0.7569, min=-1.8419, max=2.0439
+2025-07-21 07:30:46,150 - INFO - Processing target 9/10: BlendProperty9
+2025-07-21 07:30:46,150 - INFO - Training model for BlendProperty9...
+2025-07-21 07:30:46,152 - INFO - Training samples for BlendProperty9: 2000
+2025-07-21 07:42:08,691 - INFO - Best model for BlendProperty9: 0 (score: -0.7625)
+2025-07-21 07:42:10,343 - INFO - Predictions generated for BlendProperty9
+2025-07-21 07:42:10,344 - INFO - Prediction stats for BlendProperty9: mean=-0.0016, std=0.5189, min=-1.2649, max=1.2260
+2025-07-21 07:42:10,348 - INFO - Processing target 10/10: BlendProperty10
+2025-07-21 07:42:10,349 - INFO - Training model for BlendProperty10...
+2025-07-21 07:42:10,350 - INFO - Training samples for BlendProperty10: 2000
+2025-07-21 07:57:58,897 - INFO - Best model for BlendProperty10: 0 (score: -0.3456)
+2025-07-21 07:58:00,842 - INFO - Predictions generated for BlendProperty10
+2025-07-21 07:58:00,842 - INFO - Prediction stats for BlendProperty10: mean=0.0063, std=1.0070, min=-2.0449, max=2.4067
+2025-07-21 07:58:00,843 - INFO - Creating submission file...
+2025-07-21 07:58:00,858 - INFO - Training pipeline completed successfully!
+2025-07-21 07:58:00,858 - INFO - Submission saved to: submission.csv
+2025-07-21 07:58:00,858 - INFO - Performance summary saved to: model_performance.csv
